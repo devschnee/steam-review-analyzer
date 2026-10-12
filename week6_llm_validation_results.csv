@@ -1,0 +1,31 @@
+﻿sample_id,game_id,game_name,category,content,steam_recommended,expected_sentiment_from_steam,ai_sentiment,confidence,topic,summary,source,is_binary_correct,is_high_confidence_wrong
+1,268910,Cuphead,명확한 긍정,아트와 음악이 정말 좋고 보스전도 어렵지만 계속 도전하게 됩니다.,True,POSITIVE,POSITIVE,0.92,graphics_audio,아트와 음악이 훌륭하고 보스전이 도전적이지만 계속 도전하게 만드는 게임.,groq,True,False
+2,268910,Cuphead,명확한 긍정,처음에는 힘들었지만 패턴을 익히는 재미가 확실합니다. 추천합니다.,True,POSITIVE,POSITIVE,0.85,gameplay,처음엔 어려웠지만 패턴을 익히는 재미가 있어 추천합니다.,groq,True,False
+3,268910,Cuphead,명확한 부정,난이도가 너무 불친절해서 재미보다 스트레스가 큽니다. 추천하기 어렵습니다.,False,NEGATIVE,NEGATIVE,0.85,gameplay,난이도가 불친절해 스트레스가 많아 추천이 어렵다.,groq,True,False
+4,268910,Cuphead,명확한 부정,컨트롤이 답답하고 보스 반복이 피곤해서 환불하고 싶었습니다.,False,NEGATIVE,NEGATIVE,0.92,gameplay,컨트롤과 보스 반복이 불만족스러워 환불을 원했다.,groq,True,False
+5,268910,Cuphead,중립,아직 1시간밖에 안 해서 판단하기 어렵지만 분위기는 독특합니다.,True,POSITIVE,NEUTRAL,0.6,general,1시간만 플레이해 분위기가 독특하다고 느꼈지만 아직 판단이 어렵다.,groq,,False
+6,268910,Cuphead,중립,그냥 취향에 따라 갈릴 게임입니다. 저는 보통이었습니다.,True,POSITIVE,NEUTRAL,0.7,general,"게임은 취향에 따라 달라지며, 평범한 평가를 남겼다.",groq,,False
+7,268910,Cuphead,복합 감정,아트는 최고지만 난이도 때문에 다시 켜기가 부담스럽습니다.,False,NEGATIVE,MIXED,0.8,graphics_audio,아트는 최고지만 난이도로 인해 재시작이 부담스럽다.,groq,,False
+8,268910,Cuphead,복합 감정,재밌긴 한데 사람 미치게 하는 구간이 많습니다.,True,POSITIVE,MIXED,0.8,gameplay,게임이 재미있지만 난이도가 높은 구간이 많다.,groq,,False
+9,268910,Cuphead,반어법·짧은 리뷰,저혈압이면 추천합니다. 혈압 바로 오릅니다.,False,NEGATIVE,NEGATIVE,0.85,general,짧은 농담으로 게임을 비판적으로 언급,groq,True,False
+10,268910,Cuphead,반어법·짧은 리뷰,ㅋㅋㅋㅋㅋㅋ 보스 하나 잡고 멘탈 나감,False,NEGATIVE,NEGATIVE,0.8,gameplay,보스 한 명을 잡은 뒤 멘탈이 나간다.,groq,True,False
+11,553850,Helldivers 2,명확한 긍정,친구들과 같이 하면 정말 웃기고 전투가 시원합니다.,True,POSITIVE,POSITIVE,0.85,multiplayer,친구와 함께하면 전투가 시원하고 재미있다.,groq,True,False
+12,553850,Helldivers 2,명확한 긍정,협동 플레이 재미가 좋고 업데이트도 꾸준해서 계속 하게 됩니다.,True,POSITIVE,POSITIVE,0.85,multiplayer,협동 플레이와 꾸준한 업데이트 덕분에 계속 즐기는 게임.,groq,True,False
+13,553850,Helldivers 2,명확한 부정,서버 문제와 매칭 오류 때문에 제대로 플레이하기 어렵습니다.,False,NEGATIVE,NEGATIVE,0.9,multiplayer,서버와 매칭 문제로 플레이가 어려워졌습니다.,groq,True,False
+14,553850,Helldivers 2,명확한 부정,밸런스 패치가 너무 심하고 렉도 많아서 실망했습니다.,False,NEGATIVE,NEGATIVE,0.85,performance,밸런스 패치와 렉이 심해 실망스러운 경험.,groq,True,False
+15,553850,Helldivers 2,중립,컨셉은 좋은데 아직 안정화가 더 필요해 보입니다.,True,POSITIVE,MIXED,0.7,general,컨셉은 좋지만 안정화가 필요하다.,groq,,False
+16,553850,Helldivers 2,중립,재미는 있지만 혼자 하면 애매합니다. 파티가 있으면 괜찮습니다.,True,POSITIVE,POSITIVE,0.75,multiplayer,혼자 플레이는 다소 애매하지만 파티와 함께하면 즐거운 게임입니다.,groq,True,False
+17,553850,Helldivers 2,복합 감정,전투는 최고지만 서버가 자주 불안정해서 평가는 애매합니다.,True,POSITIVE,MIXED,0.8,gameplay,전투는 훌륭하지만 서버 불안정으로 평가가 애매하다.,groq,,False
+18,553850,Helldivers 2,복합 감정,친구랑 하면 갓겜인데 랜덤 매칭은 스트레스가 큽니다.,True,POSITIVE,MIXED,0.75,multiplayer,친구와 함께하면 훌륭하지만 랜덤 매칭은 스트레스를 준다.,groq,,False
+19,553850,Helldivers 2,반어법·짧은 리뷰,민주주의 배달하다가 튕김. 아주 훌륭합니다 진짜.,False,NEGATIVE,MIXED,0.75,performance,배달 중 크래시가 발생했지만 게임은 훌륭하다고 평가합니다.,groq,,False
+20,553850,Helldivers 2,반어법·짧은 리뷰,재밌음. 근데 서버가 게임을 못 하게 함.,False,NEGATIVE,MIXED,0.68,gameplay,재미는 있지만 서버 문제로 게임이 방해된다.,groq,,False
+21,413150,Stardew Valley,명확한 긍정,힐링되고 할 일이 많아서 시간 가는 줄 모르겠습니다.,True,POSITIVE,POSITIVE,0.88,gameplay,힐링과 다양한 활동으로 시간을 잊게 만드는 게임입니다.,groq,True,False
+22,413150,Stardew Valley,명확한 긍정,농사 낚시 마을 사람들까지 전부 따뜻한 게임입니다. 강추합니다.,True,POSITIVE,POSITIVE,0.92,gameplay,"농사와 낚시, 마을 사람들까지 따뜻한 게임으로 강력 추천합니다.",groq,True,False
+23,413150,Stardew Valley,명확한 부정,반복 작업이 너무 많아서 금방 지루해졌습니다.,False,NEGATIVE,NEGATIVE,0.92,gameplay,반복적인 작업이 많아 지루함을 느꼈다.,groq,True,False
+24,413150,Stardew Valley,명확한 부정,저는 느린 진행이 답답했고 재미를 못 느꼈습니다.,False,NEGATIVE,NEGATIVE,0.9,gameplay,느린 진행으로 재미를 못 느꼈다.,groq,True,False
+25,413150,Stardew Valley,중립,잔잔한 게임을 좋아하면 맞고 빠른 전개를 원하면 안 맞을 수 있습니다.,True,POSITIVE,NEUTRAL,0.8,gameplay,"잔잔한 게임을 선호하면 적합하지만, 빠른 전개를 원하면 부적합할 수 있다.",groq,,False
+26,413150,Stardew Valley,중립,평범한 농장 게임처럼 보이지만 취향에 따라 오래 할 수도 있습니다.,True,POSITIVE,NEUTRAL,0.7,gameplay,평범한 농장 게임이지만 취향에 따라 오래 즐길 수 있다.,groq,,False
+27,413150,Stardew Valley,복합 감정,좋은 게임인 건 알겠는데 반복이 많아서 제 취향은 아니었습니다.,False,NEGATIVE,NEGATIVE,0.8,gameplay,반복이 많아 취향에 맞지 않아 부정적 평가.,groq,True,False
+28,413150,Stardew Valley,복합 감정,힐링은 되지만 초반에는 뭘 해야 할지 조금 막막합니다.,True,POSITIVE,MIXED,0.7,gameplay,초반에 무엇을 해야 할지 막막하지만 힐링 효과는 있다.,groq,,False
+29,413150,Stardew Valley,반어법·짧은 리뷰,잠깐만 하려고 했는데 새벽이 됐습니다. 위험한 게임입니다.,True,POSITIVE,POSITIVE,0.75,general,게임이 중독성 있어 새벽까지 플레이하게 된다.,groq,True,False
+30,413150,Stardew Valley,반어법·짧은 리뷰,그냥 농사 게임인 줄 알았는데 인생을 빼앗겼습니다.,True,POSITIVE,POSITIVE,0.9,general,농사 게임이지만 인생을 빼앗는 몰입감이 있다.,groq,True,False
